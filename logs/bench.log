@@ -1,0 +1,51 @@
+2022-09-12 09:37:22,336 DEBUG cd cores && python3 -m venv env
+2022-09-12 09:37:27,479 DEBUG cd cores && /Users/stuart/Projects/Credify/cores/env/bin/python -m pip install --quiet --upgrade pip
+2022-09-12 09:37:33,405 LOG Getting frappe
+2022-09-12 09:37:33,406 DEBUG cd cores/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2022-09-12 09:38:29,362 LOG Installing frappe
+2022-09-12 09:38:29,362 DEBUG cd /Users/stuart/Projects/Credify/cores && /Users/stuart/Projects/Credify/cores/env/bin/python -m pip install --quiet --upgrade -e /Users/stuart/Projects/Credify/cores/apps/frappe 
+2022-09-12 09:42:30,723 DEBUG cd /Users/stuart/Projects/Credify/cores/apps/frappe && yarn install
+2022-09-12 09:42:47,716 DEBUG cd cores && bench build
+2022-09-12 09:42:48,309 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench build
+2022-09-12 09:51:51,496 LOG setting up backups
+2022-09-12 09:51:53,628 LOG backups were set up
+2022-09-12 09:51:53,629 INFO Bench cores initialized
+2022-09-12 09:53:49,661 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench new-app library_management
+2022-09-12 09:53:49,676 LOG creating new app library_management
+2022-09-12 09:54:20,144 LOG Installing library_management
+2022-09-12 09:54:20,144 DEBUG cd /Users/stuart/Projects/Credify/cores && /Users/stuart/Projects/Credify/cores/env/bin/python -m pip install --quiet --upgrade -e /Users/stuart/Projects/Credify/cores/apps/library_management 
+2022-09-12 09:54:21,913 DEBUG bench build --app library_management
+2022-09-12 09:54:22,047 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench build --app library_management
+2022-09-12 09:59:11,340 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench new-site --db-name frappe --db-root-username stuart --db-type postgres library.com
+2022-09-12 10:13:58,279 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench --site library.com install-app library_management
+2022-09-12 10:14:28,108 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench start
+2022-09-12 10:14:29,518 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench serve --port 8003
+2022-09-12 10:14:29,629 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench watch
+2022-09-12 10:14:29,637 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue long
+2022-09-12 10:14:29,646 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench schedule
+2022-09-12 10:14:29,647 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue short
+2022-09-12 10:14:29,713 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue default
+2022-09-12 10:21:59,831 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench set-config -g developer_mode true
+2022-09-12 10:22:06,097 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench start
+2022-09-12 10:22:07,597 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench serve --port 8003
+2022-09-12 10:22:07,663 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench watch
+2022-09-12 10:22:07,667 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue long
+2022-09-12 10:22:07,703 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue default
+2022-09-12 10:22:07,720 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue short
+2022-09-12 10:22:07,723 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench schedule
+2022-09-12 10:32:22,402 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench --site library.com postgres
+2022-09-12 10:33:32,449 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench start
+2022-09-12 10:33:33,670 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench serve --port 8003
+2022-09-12 10:33:33,675 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue default
+2022-09-12 10:33:33,687 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench watch
+2022-09-12 10:33:33,690 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue short
+2022-09-12 10:33:33,732 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench schedule
+2022-09-12 10:33:33,759 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue long
+2022-09-12 10:48:52,845 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench start
+2022-09-12 10:48:54,062 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench serve --port 8003
+2022-09-12 10:48:54,089 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench schedule
+2022-09-12 10:48:54,090 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench watch
+2022-09-12 10:48:54,117 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue short
+2022-09-12 10:48:54,157 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue long
+2022-09-12 10:48:54,158 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench worker --queue default
+2022-09-12 12:00:01,396 INFO /Library/Frameworks/Python.framework/Versions/3.10/bin/bench --verbose --site all backup

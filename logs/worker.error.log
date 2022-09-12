@@ -1,0 +1,1021 @@
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+10:15:42 Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 1061, in perform_job
+    rv = job.perform()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/job.py", line 821, in perform
+    self._result = self._execute()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/job.py", line 844, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 166, in execute_job
+    method(**kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/core/doctype/user/user.py", line 1108, in create_contact
+    contact.insert(
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/model/document.py", line 247, in insert
+    self._validate_links()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/model/document.py", line 893, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: stuartdambi@gmail.com
+Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 1061, in perform_job
+    rv = job.perform()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/job.py", line 821, in perform
+    self._result = self._execute()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/job.py", line 844, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 166, in execute_job
+    method(**kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/core/doctype/user/user.py", line 1108, in create_contact
+    contact.insert(
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/model/document.py", line 247, in insert
+    self._validate_links()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/model/document.py", line 893, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: stuartdambi@gmail.com
+objc[68488]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+objc[68488]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+objc[68489]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+objc[68489]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+objc[68491]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+objc[68491]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+objc[68978]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called.
+objc[68978]: +[__NSCFConstantString initialize] may have been in progress in another thread when fork() was called. We cannot safely call it or ignore it in the fork() child process. Crashing instead. Set a breakpoint on objc_initializeAfterForkError to debug.
+Exception in thread Exception in thread Thread-1Thread-1:
+:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+        self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+    self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+    pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 809, in can_read
+    pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+    return self._parser.can_read(timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 411, in can_read
+    return self.read_from_socket(timeout=timeout, raise_on_timeout=False)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 423, in read_from_socket
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 809, in can_read
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    return self._parser.can_read(timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 411, in can_read
+    raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return self.read_from_socket(timeout=timeout, raise_on_timeout=False)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 423, in read_from_socket
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 809, in can_read
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 612, in <lambda>
+    return self._parser.can_read(timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 411, in can_read
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 677, in _connect
+    return self.read_from_socket(timeout=timeout, raise_on_timeout=False)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 423, in read_from_socket
+    raise err
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 665, in _connect
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 677, in _connect
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    raise err
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 665, in _connect
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _process_result(sub_ctx.command.invoke(sub_ctx))    
+return _run_code(code, main_globals, None,  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+        return _process_result(sub_ctx.command.invoke(sub_ctx))click.Group(commands=commands)(prog_name="bench")
+
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 611, in connect
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    sock = self.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 612, in <lambda>
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.    ConnectionErrorlambda: self._connect(), lambda error: self.disconnect(error): 
+Connection closed by server.  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 677, in _connect
+
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+        Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+    self.register_death()
+      File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+self.register_death()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+    p.execute()    
+p.execute()  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2072, in execute
+
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2072, in execute
+    raise err
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 665, in _connect
+        conn = self.connection_pool.get_connection("MULTI", self.shard_hint)conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 1387, in get_connection
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 617, in connect
+    connection.connect()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:11003. Connection refused.
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:11003. Connection refused.
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+    self.register_death()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+    p.execute()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2072, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:11003. Connection refused.
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 612, in <lambda>
+Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 611, in connect
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 677, in _connect
+        sock = self.retry.call_with_retry(raise err
+
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 665, in _connect
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 612, in <lambda>
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 677, in _connect
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    raise err
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 665, in _connect
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+    self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 611, in connect
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 809, in can_read
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return self._parser.can_read(timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 411, in can_read
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+    self.register_death()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+    p.execute()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2072, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:11003. Connection refused.
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+    self.register_death()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+    p.execute()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2072, in execute
+        sock = self.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 677, in _connect
+    raise err
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:11003. Connection refused.
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+        return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+    self.register_death()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+    p.execute()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2072, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 617, in connect
+        raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 809, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 411, in can_read
+    return self.read_from_socket(timeout=timeout, raise_on_timeout=False)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 423, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:11003. Connection refused.
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 824, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 467, in read_response
+    self.read_from_socket()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 421, in read_from_socket
+    bufflen = self._sock.recv_into(self._buffer)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    Traceback (most recent call last):
+Exception in thread Exception in thread Thread-1:
+Thread-1Traceback (most recent call last):
+:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+    pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+return _process_result(sub_ctx.command.invoke(sub_ctx))    self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+    self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+    pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    
+return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+      File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+      File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    self.register_death()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 809, in can_read
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    return self._parser.can_read(timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 411, in can_read
+    return self.read_from_socket(timeout=timeout, raise_on_timeout=False)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 423, in read_from_socket
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 809, in can_read
+    p.execute()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2078, in execute
+    return self._parser.can_read(timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 411, in can_read
+    return self.read_from_socket(timeout=timeout, raise_on_timeout=False)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 423, in read_from_socket
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+        fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2080, in <lambda>
+raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)    lambda error: self._disconnect_raise_reset(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2079, in <lambda>
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    lambda: execute(conn, stack, raise_on_error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1933, in _execute_transaction
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+        self.parse_response(connection, "_")return _process_result(sub_ctx.command.invoke(sub_ctx))
+
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2018, in parse_response
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    result = Redis.parse_response(self, connection, command_name, **options)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1254, in parse_response
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+        Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)response = connection.read_response()
+
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 830, in read_response
+    self.register_death()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+    raise ConnectionError(f"Error while reading from {hosterr}" f" : {e.args}")
+redis.exceptions.ConnectionError: Error while reading from localhost:11003 : (54, 'Connection reset by peer')
+    p.execute()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2078, in execute
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2080, in <lambda>
+    lambda error: self._disconnect_raise_reset(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2079, in <lambda>
+    lambda: execute(conn, stack, raise_on_error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1933, in _execute_transaction
+    self.parse_response(connection, "_")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2018, in parse_response
+    result = Redis.parse_response(self, connection, command_name, **options)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1254, in parse_response
+    response = connection.read_response()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 824, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 467, in read_response
+    self.read_from_socket()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 423, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 611, in connect
+    sock = self.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 677, in _connect
+    raise err
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 638, in work
+    self.unsubscribe()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 543, in unsubscribe
+    self.pubsub.unsubscribe()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1617, in unsubscribe
+    return self.execute_command("UNSUBSCRIBE", *args)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1443, in execute_command
+    self._execute(connection, connection.send_command, *args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 799, in send_command
+    self.send_packed_command(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 773, in send_packed_command
+    self.connect()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:11003. Connection refused.
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/build.py:7: DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  from distutils.spawn import find_executable
+Exception in thread Exception in thread Thread-1:
+Traceback (most recent call last):
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+Thread-1:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+    self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+    self.run()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1757, in run
+Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 611, in connect
+Traceback (most recent call last):
+    pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True, timeout=sleep_time)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1648, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1498, in parse_response
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    if not block and not self._execute(conn, conn.can_read, timeout=timeout):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1482, in _execute
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+    return conn.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 49, in call_with_retry
+        fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 611, in connect
+    fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    sock = self.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+fail(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1484, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1471, in _disconnect_raise_connect
+    raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    raise error
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 809, in can_read
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 1483, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 809, in can_read
+    return self._parser.can_read(timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 411, in can_read
+    lambda: command(*args, **kwargs),
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 809, in can_read
+    return self.read_from_socket(timeout=timeout, raise_on_timeout=False)    return self._parser.can_read(timeout)
+
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 423, in read_from_socket
+    return self._parser.can_read(timeout)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 411, in can_read
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+    return self.read_from_socket(timeout=timeout, raise_on_timeout=False)redis.exceptions
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 423, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 612, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 677, in _connect
+    raise err
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 411, in can_read
+    return self.read_from_socket(timeout=timeout, raise_on_timeout=False)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 423, in read_from_socket
+.ConnectionError: Connection closed by server.
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    sock = self.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 612, in <lambda>
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 677, in _connect
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    raise err
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 665, in _connect
+    sock.connect(socket_address)
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+Traceback (most recent call last):
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 611, in connect
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+    sock = self.retry.call_with_retry(
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 612, in <lambda>
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 677, in _connect
+    raise err
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 665, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 104, in <module>
+    main()
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/bench_helper.py", line 19, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)    
+rv = self.invoke(ctx)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/commands/scheduler.py", line 189, in start_worker
+    start_worker(queue, quiet=quiet, rq_username=rq_username, rq_password=rq_password)
+  File "/Users/stuart/Projects/Credify/cores/apps/frappe/frappe/utils/background_jobs.py", line 224, in start_worker
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+    Worker(queues, name=get_worker_name(queue_name)).work(logging_level=logging_level)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 637, in work
+    self.register_death()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+    p.execute()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2072, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 1387, in get_connection
+    self.register_death()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+    p.execute()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2072, in execute
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 617, in connect
+    self.register_death()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/rq/worker.py", line 337, in register_death
+        raise ConnectionError(self._error_message(e))p.execute()
+
+redis.exceptions  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/client.py", line 2072, in execute
+.ConnectionError: Error 61 connecting to localhost:11003. Connection refused.
+    conn = self.connection_pool.get_connection("MULTI", self.shard_hint)
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 1387, in get_connection
+    connection.connect()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:11003. Connection refused.
+    connection.connect()
+  File "/Users/stuart/Projects/Credify/cores/env/lib/python3.10/site-packages/redis/connection.py", line 617, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 61 connecting to localhost:11003. Connection refused.
